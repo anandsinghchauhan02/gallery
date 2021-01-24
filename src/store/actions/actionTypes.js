@@ -1,0 +1,1 @@
+export const GET_GALLERY_DATA = 'GET_GALLERY_DATA';
