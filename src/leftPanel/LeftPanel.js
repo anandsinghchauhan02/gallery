@@ -1,10 +1,10 @@
 import React from 'react';
 import MetaData from '../components/MetaData/MetaData';
 
-const LeftPanel = () => {
+const LeftPanel = (props) => {
     return (
         <div className="cardDesign">
-         <MetaData/>
+         <MetaData metaData={props.metaData}/>
       </div>
     )
 }
